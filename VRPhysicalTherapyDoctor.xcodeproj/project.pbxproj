@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50673811A6AFFF70083F598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673801A6AFFF70083F598 /* AppDelegate.swift */; };
+		A50673831A6AFFF70083F598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673821A6AFFF70083F598 /* ViewController.swift */; };
+		A50673861A6AFFF70083F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50673841A6AFFF70083F598 /* Main.storyboard */; };
+		A50673881A6AFFF70083F598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50673871A6AFFF70083F598 /* Images.xcassets */; };
+		A506738B1A6AFFF70083F598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50673891A6AFFF70083F598 /* LaunchScreen.xib */; };
+		A50673971A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673961A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50673911A6AFFF70083F598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50673731A6AFFF70083F598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A506737A1A6AFFF70083F598;
+			remoteInfo = VRPhysicalTherapyDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A506737B1A6AFFF70083F598 /* VRPhysicalTherapyDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPhysicalTherapyDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A506737F1A6AFFF70083F598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50673801A6AFFF70083F598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A50673821A6AFFF70083F598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A50673851A6AFFF70083F598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50673871A6AFFF70083F598 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A506738A1A6AFFF70083F598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A50673901A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPhysicalTherapyDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50673951A6AFFF70083F598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50673961A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPhysicalTherapyDoctorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50673781A6AFFF70083F598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A506738D1A6AFFF70083F598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50673721A6AFFF70083F598 = {
+			isa = PBXGroup;
+			children = (
+				A506737D1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */,
+				A50673931A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests */,
+				A506737C1A6AFFF70083F598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A506737C1A6AFFF70083F598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A506737B1A6AFFF70083F598 /* VRPhysicalTherapyDoctor.app */,
+				A50673901A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A506737D1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				A50673801A6AFFF70083F598 /* AppDelegate.swift */,
+				A50673821A6AFFF70083F598 /* ViewController.swift */,
+				A50673841A6AFFF70083F598 /* Main.storyboard */,
+				A50673871A6AFFF70083F598 /* Images.xcassets */,
+				A50673891A6AFFF70083F598 /* LaunchScreen.xib */,
+				A506737E1A6AFFF70083F598 /* Supporting Files */,
+			);
+			path = VRPhysicalTherapyDoctor;
+			sourceTree = "<group>";
+		};
+		A506737E1A6AFFF70083F598 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A506737F1A6AFFF70083F598 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50673931A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50673961A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift */,
+				A50673941A6AFFF70083F598 /* Supporting Files */,
+			);
+			path = VRPhysicalTherapyDoctorTests;
+			sourceTree = "<group>";
+		};
+		A50673941A6AFFF70083F598 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A50673951A6AFFF70083F598 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A506737A1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A506739A1A6AFFF70083F598 /* Build configuration list for PBXNativeTarget "VRPhysicalTherapyDoctor" */;
+			buildPhases = (
+				A50673771A6AFFF70083F598 /* Sources */,
+				A50673781A6AFFF70083F598 /* Frameworks */,
+				A50673791A6AFFF70083F598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPhysicalTherapyDoctor;
+			productName = VRPhysicalTherapyDoctor;
+			productReference = A506737B1A6AFFF70083F598 /* VRPhysicalTherapyDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A506738F1A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A506739D1A6AFFF70083F598 /* Build configuration list for PBXNativeTarget "VRPhysicalTherapyDoctorTests" */;
+			buildPhases = (
+				A506738C1A6AFFF70083F598 /* Sources */,
+				A506738D1A6AFFF70083F598 /* Frameworks */,
+				A506738E1A6AFFF70083F598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50673921A6AFFF70083F598 /* PBXTargetDependency */,
+			);
+			name = VRPhysicalTherapyDoctorTests;
+			productName = VRPhysicalTherapyDoctorTests;
+			productReference = A50673901A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50673731A6AFFF70083F598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Applos;
+				TargetAttributes = {
+					A506737A1A6AFFF70083F598 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A506738F1A6AFFF70083F598 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A506737A1A6AFFF70083F598;
+					};
+				};
+			};
+			buildConfigurationList = A50673761A6AFFF70083F598 /* Build configuration list for PBXProject "VRPhysicalTherapyDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50673721A6AFFF70083F598;
+			productRefGroup = A506737C1A6AFFF70083F598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A506737A1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */,
+				A506738F1A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50673791A6AFFF70083F598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50673861A6AFFF70083F598 /* Main.storyboard in Resources */,
+				A506738B1A6AFFF70083F598 /* LaunchScreen.xib in Resources */,
+				A50673881A6AFFF70083F598 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A506738E1A6AFFF70083F598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50673771A6AFFF70083F598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50673831A6AFFF70083F598 /* ViewController.swift in Sources */,
+				A50673811A6AFFF70083F598 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A506738C1A6AFFF70083F598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50673971A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50673921A6AFFF70083F598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A506737A1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */;
+			targetProxy = A50673911A6AFFF70083F598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A50673841A6AFFF70083F598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50673851A6AFFF70083F598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A50673891A6AFFF70083F598 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A506738A1A6AFFF70083F598 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50673981A6AFFF70083F598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50673991A6AFFF70083F598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A506739B1A6AFFF70083F598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRPhysicalTherapyDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A506739C1A6AFFF70083F598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRPhysicalTherapyDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A506739E1A6AFFF70083F598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VRPhysicalTherapyDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPhysicalTherapyDoctor.app/VRPhysicalTherapyDoctor";
+			};
+			name = Debug;
+		};
+		A506739F1A6AFFF70083F598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VRPhysicalTherapyDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPhysicalTherapyDoctor.app/VRPhysicalTherapyDoctor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50673761A6AFFF70083F598 /* Build configuration list for PBXProject "VRPhysicalTherapyDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50673981A6AFFF70083F598 /* Debug */,
+				A50673991A6AFFF70083F598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A506739A1A6AFFF70083F598 /* Build configuration list for PBXNativeTarget "VRPhysicalTherapyDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A506739B1A6AFFF70083F598 /* Debug */,
+				A506739C1A6AFFF70083F598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A506739D1A6AFFF70083F598 /* Build configuration list for PBXNativeTarget "VRPhysicalTherapyDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A506739E1A6AFFF70083F598 /* Debug */,
+				A506739F1A6AFFF70083F598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50673731A6AFFF70083F598 /* Project object */;
+}
