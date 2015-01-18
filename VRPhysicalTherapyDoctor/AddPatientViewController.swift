@@ -12,6 +12,8 @@ class AddPatientViewController: UIViewController
 {
     @IBOutlet weak var usernameTextField: UITextField!
     
+    @IBOutlet weak var addPatientStatusLabel: UILabel!
+    
     @IBOutlet weak var addRelationButton: UIButton!
     
     @IBAction func addRelationButtonPressed(sender: AnyObject)
@@ -41,14 +43,18 @@ class AddPatientViewController: UIViewController
                             relation.addObject(queriedUser)
                             
                             PFUser.currentUser().saveInBackground()
+                            
+                            self.addPatientStatusLabel.text = "Success!"
                         }
                         else
                         {
+                            self.addPatientStatusLabel.text = "User is not a patient."
                             NSLog("Queried user is not of type patient")
                         }
                     }
                     else
                     {
+                        self.addPatientStatusLabel.text = "User not found."
                         NSLog("Error, queried user is nil")
                     }
                 }

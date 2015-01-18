@@ -325,10 +325,10 @@
             </objects>
             <point key="canvasLocation" x="103.5" y="-153"/>
         </scene>
-        <!--Therapy Sessions-->
+        <!--Patients-->
         <scene sceneID="Wm2-3l-Fbm">
             <objects>
-                <viewController id="v0f-jj-ZDN" customClass="TherapyListTableViewController" customModule="VRPhysicalTherapyDoctor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="v0f-jj-ZDN" customClass="PatientsListTableViewController" customModule="VRPhysicalTherapyDoctor" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HA9-IK-Ki5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -346,7 +346,14 @@
                         </prototypes>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Therapy Sessions" id="XSr-pc-WNT"/>
+                    <navigationItem key="navigationItem" title="Patients" id="XSr-pc-WNT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="EVr-ED-U5n">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="UFr-eY-EPZ" kind="show" id="R1s-wD-ttl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="Ti4-Tf-x46" id="x6G-1r-qj9"/>
@@ -363,6 +370,73 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="849" y="-153"/>
+        </scene>
+        <!--Add Patient View Controller-->
+        <scene sceneID="WKb-C9-1rf">
+            <objects>
+                <viewController id="UFr-eY-EPZ" customClass="AddPatientViewController" customModule="VRPhysicalTherapyDoctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KoF-b1-nGR"/>
+                        <viewControllerLayoutGuide type="bottom" id="MZD-X7-Auu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qOJ-tq-FM0">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bM9-07-9Ta">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="222" width="376" height="25"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTf-qh-hu2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Follow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="293" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addRelationButtonPressed:" destination="UFr-eY-EPZ" eventType="touchUpInside" id="hD1-rX-CyX"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Osc-NK-CM1">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="105" y="255" width="200" height="30"/>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="bM9-07-9Ta"/>
+                                <exclude reference="cTf-qh-hu2"/>
+                                <exclude reference="Osc-NK-CM1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="bM9-07-9Ta"/>
+                                <include reference="cTf-qh-hu2"/>
+                                <include reference="Osc-NK-CM1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="addPatientStatusLabel" destination="bM9-07-9Ta" id="YKy-vt-dO7"/>
+                        <outlet property="addRelationButton" destination="cTf-qh-hu2" id="Lyu-j5-xJ5"/>
+                        <outlet property="usernameTextField" destination="Osc-NK-CM1" id="HoH-oZ-rSd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hZT-9p-1fQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647" y="-514.5"/>
         </scene>
         <!--Frisbee Graph Web View Controller-->
         <scene sceneID="iLN-IJ-zwW">
@@ -383,7 +457,7 @@
                                     <rect key="frame" x="0.0" y="44" width="400" height="820"/>
                                 </variation>
                             </webView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fvo-NC-TYh">
+                            <navigationBar clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fvo-NC-TYh">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem id="Gya-WK-dc2">
@@ -420,7 +494,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ins-Qm-12M" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="XeA-ug-YeF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1671" y="-153"/>
+            <point key="canvasLocation" x="1647" y="174"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sNE-k8-Cmn">
