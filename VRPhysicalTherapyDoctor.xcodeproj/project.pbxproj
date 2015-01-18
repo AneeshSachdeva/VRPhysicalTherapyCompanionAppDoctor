@@ -8,11 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A50673811A6AFFF70083F598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673801A6AFFF70083F598 /* AppDelegate.swift */; };
-		A50673831A6AFFF70083F598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673821A6AFFF70083F598 /* ViewController.swift */; };
-		A50673861A6AFFF70083F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50673841A6AFFF70083F598 /* Main.storyboard */; };
 		A50673881A6AFFF70083F598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50673871A6AFFF70083F598 /* Images.xcassets */; };
 		A506738B1A6AFFF70083F598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50673891A6AFFF70083F598 /* LaunchScreen.xib */; };
 		A50673971A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673961A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift */; };
+		A50673A51A6B00860083F598 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673A01A6B00860083F598 /* Bolts.framework */; };
+		A50673A61A6B00860083F598 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A50673A11A6B00860083F598 /* Keys.plist */; };
+		A50673A71A6B00860083F598 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673A21A6B00860083F598 /* LoginViewController.swift */; };
+		A50673A81A6B00860083F598 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673A31A6B00860083F598 /* Parse.framework */; };
+		A50673A91A6B00860083F598 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50673A41A6B00860083F598 /* SignUpViewController.swift */; };
+		A50673AB1A6B00AB0083F598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50673AA1A6B00AB0083F598 /* Main.storyboard */; };
+		A50673B01A6B011D0083F598 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673AF1A6B011D0083F598 /* AudioToolbox.framework */; };
+		A50673B21A6B01230083F598 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673B11A6B01230083F598 /* CFNetwork.framework */; };
+		A50673B41A6B012B0083F598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673B31A6B012B0083F598 /* CoreGraphics.framework */; };
+		A50673B61A6B01350083F598 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673B51A6B01350083F598 /* CoreLocation.framework */; };
+		A50673B81A6B013D0083F598 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673B71A6B013D0083F598 /* MobileCoreServices.framework */; };
+		A50673BA1A6B01430083F598 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673B91A6B01430083F598 /* QuartzCore.framework */; };
+		A50673BC1A6B014A0083F598 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673BB1A6B014A0083F598 /* Security.framework */; };
+		A50673BE1A6B01500083F598 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673BD1A6B01500083F598 /* StoreKit.framework */; };
+		A50673C01A6B01590083F598 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673BF1A6B01590083F598 /* SystemConfiguration.framework */; };
+		A50673C21A6B01610083F598 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673C11A6B01610083F598 /* libz.dylib */; };
+		A50673C41A6B016A0083F598 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A50673C31A6B016A0083F598 /* libsqlite3.dylib */; };
+		A58B46C11A6B82B400303CA2 /* FrisbeeGraphWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B46C01A6B82B400303CA2 /* FrisbeeGraphWebViewController.swift */; };
+		A5AD4DD61A6B237000F5FCA5 /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD4DD51A6B237000F5FCA5 /* AddPatientViewController.swift */; };
+		A5AD4DD81A6B355B00F5FCA5 /* ValidVRDomains.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5AD4DD71A6B355B00F5FCA5 /* ValidVRDomains.txt */; };
+		A5C876041A6BD46700CB9087 /* PatientsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C876031A6BD46700CB9087 /* PatientsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +48,33 @@
 		A506737B1A6AFFF70083F598 /* VRPhysicalTherapyDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPhysicalTherapyDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A506737F1A6AFFF70083F598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50673801A6AFFF70083F598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A50673821A6AFFF70083F598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A50673851A6AFFF70083F598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A50673871A6AFFF70083F598 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A506738A1A6AFFF70083F598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A50673901A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPhysicalTherapyDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50673951A6AFFF70083F598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A50673961A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPhysicalTherapyDoctorTests.swift; sourceTree = "<group>"; };
+		A50673A01A6B00860083F598 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = VRPhysicalTherapyDoctor/Bolts.framework; sourceTree = "<group>"; };
+		A50673A11A6B00860083F598 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		A50673A21A6B00860083F598 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A50673A31A6B00860083F598 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = VRPhysicalTherapyDoctor/Parse.framework; sourceTree = "<group>"; };
+		A50673A41A6B00860083F598 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A50673AA1A6B00AB0083F598 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A50673AC1A6B00BC0083F598 /* VRPhysicalTherapyDoctor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRPhysicalTherapyDoctor-Bridging-Header.h"; sourceTree = "<group>"; };
+		A50673AF1A6B011D0083F598 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A50673B11A6B01230083F598 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A50673B31A6B012B0083F598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A50673B51A6B01350083F598 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A50673B71A6B013D0083F598 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A50673B91A6B01430083F598 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A50673BB1A6B014A0083F598 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A50673BD1A6B01500083F598 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A50673BF1A6B01590083F598 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A50673C11A6B01610083F598 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A50673C31A6B016A0083F598 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A58B46C01A6B82B400303CA2 /* FrisbeeGraphWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrisbeeGraphWebViewController.swift; sourceTree = "<group>"; };
+		A5AD4DD51A6B237000F5FCA5 /* AddPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		A5AD4DD71A6B355B00F5FCA5 /* ValidVRDomains.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ValidVRDomains.txt; path = ../../MHacks/ValidVRDomains.txt; sourceTree = "<group>"; };
+		A5C876031A6BD46700CB9087 /* PatientsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50673C41A6B016A0083F598 /* libsqlite3.dylib in Frameworks */,
+				A50673C21A6B01610083F598 /* libz.dylib in Frameworks */,
+				A50673C01A6B01590083F598 /* SystemConfiguration.framework in Frameworks */,
+				A50673BE1A6B01500083F598 /* StoreKit.framework in Frameworks */,
+				A50673BC1A6B014A0083F598 /* Security.framework in Frameworks */,
+				A50673BA1A6B01430083F598 /* QuartzCore.framework in Frameworks */,
+				A50673B81A6B013D0083F598 /* MobileCoreServices.framework in Frameworks */,
+				A50673B61A6B01350083F598 /* CoreLocation.framework in Frameworks */,
+				A50673B41A6B012B0083F598 /* CoreGraphics.framework in Frameworks */,
+				A50673B21A6B01230083F598 /* CFNetwork.framework in Frameworks */,
+				A50673B01A6B011D0083F598 /* AudioToolbox.framework in Frameworks */,
+				A50673A81A6B00860083F598 /* Parse.framework in Frameworks */,
+				A50673A51A6B00860083F598 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +111,8 @@
 		A50673721A6AFFF70083F598 = {
 			isa = PBXGroup;
 			children = (
+				A5AD4DD71A6B355B00F5FCA5 /* ValidVRDomains.txt */,
+				A50673C51A6B017E0083F598 /* Frameworks */,
 				A506737D1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */,
 				A50673931A6AFFF70083F598 /* VRPhysicalTherapyDoctorTests */,
 				A506737C1A6AFFF70083F598 /* Products */,
@@ -77,12 +131,17 @@
 		A506737D1A6AFFF70083F598 /* VRPhysicalTherapyDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				A5C876031A6BD46700CB9087 /* PatientsListTableViewController.swift */,
+				A50673AA1A6B00AB0083F598 /* Main.storyboard */,
+				A50673A21A6B00860083F598 /* LoginViewController.swift */,
+				A50673A41A6B00860083F598 /* SignUpViewController.swift */,
+				A5AD4DD51A6B237000F5FCA5 /* AddPatientViewController.swift */,
 				A50673801A6AFFF70083F598 /* AppDelegate.swift */,
-				A50673821A6AFFF70083F598 /* ViewController.swift */,
-				A50673841A6AFFF70083F598 /* Main.storyboard */,
 				A50673871A6AFFF70083F598 /* Images.xcassets */,
 				A50673891A6AFFF70083F598 /* LaunchScreen.xib */,
 				A506737E1A6AFFF70083F598 /* Supporting Files */,
+				A50673AC1A6B00BC0083F598 /* VRPhysicalTherapyDoctor-Bridging-Header.h */,
+				A58B46C01A6B82B400303CA2 /* FrisbeeGraphWebViewController.swift */,
 			);
 			path = VRPhysicalTherapyDoctor;
 			sourceTree = "<group>";
@@ -90,6 +149,7 @@
 		A506737E1A6AFFF70083F598 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A50673A11A6B00860083F598 /* Keys.plist */,
 				A506737F1A6AFFF70083F598 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +170,26 @@
 				A50673951A6AFFF70083F598 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50673C51A6B017E0083F598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50673C31A6B016A0083F598 /* libsqlite3.dylib */,
+				A50673C11A6B01610083F598 /* libz.dylib */,
+				A50673A31A6B00860083F598 /* Parse.framework */,
+				A50673A01A6B00860083F598 /* Bolts.framework */,
+				A50673BF1A6B01590083F598 /* SystemConfiguration.framework */,
+				A50673BD1A6B01500083F598 /* StoreKit.framework */,
+				A50673BB1A6B014A0083F598 /* Security.framework */,
+				A50673B91A6B01430083F598 /* QuartzCore.framework */,
+				A50673B71A6B013D0083F598 /* MobileCoreServices.framework */,
+				A50673B51A6B01350083F598 /* CoreLocation.framework */,
+				A50673B31A6B012B0083F598 /* CoreGraphics.framework */,
+				A50673B11A6B01230083F598 /* CFNetwork.framework */,
+				A50673AF1A6B011D0083F598 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50673861A6AFFF70083F598 /* Main.storyboard in Resources */,
+				A50673A61A6B00860083F598 /* Keys.plist in Resources */,
 				A506738B1A6AFFF70083F598 /* LaunchScreen.xib in Resources */,
 				A50673881A6AFFF70083F598 /* Images.xcassets in Resources */,
+				A50673AB1A6B00AB0083F598 /* Main.storyboard in Resources */,
+				A5AD4DD81A6B355B00F5FCA5 /* ValidVRDomains.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50673831A6AFFF70083F598 /* ViewController.swift in Sources */,
+				A5AD4DD61A6B237000F5FCA5 /* AddPatientViewController.swift in Sources */,
+				A5C876041A6BD46700CB9087 /* PatientsListTableViewController.swift in Sources */,
+				A58B46C11A6B82B400303CA2 /* FrisbeeGraphWebViewController.swift in Sources */,
+				A50673A71A6B00860083F598 /* LoginViewController.swift in Sources */,
+				A50673A91A6B00860083F598 /* SignUpViewController.swift in Sources */,
 				A50673811A6AFFF70083F598 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A50673841A6AFFF70083F598 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A50673851A6AFFF70083F598 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A50673891A6AFFF70083F598 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +414,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRPhysicalTherapyDoctor",
+				);
 				INFOPLIST_FILE = VRPhysicalTherapyDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRPhysicalTherapyDoctor/VRPhysicalTherapyDoctor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +431,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VRPhysicalTherapyDoctor",
+				);
 				INFOPLIST_FILE = VRPhysicalTherapyDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRPhysicalTherapyDoctor/VRPhysicalTherapyDoctor-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +496,7 @@
 				A506739C1A6AFFF70083F598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A506739D1A6AFFF70083F598 /* Build configuration list for PBXNativeTarget "VRPhysicalTherapyDoctorTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +505,7 @@
 				A506739F1A6AFFF70083F598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
